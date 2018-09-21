@@ -1,5 +1,38 @@
-# Challenge 2: Becoming an R Apprentice
-- *Assigned: September 14, 2018*
-- *Due: at 6pm on September 28, 2018*
 
-This challenge is not quite ready!  Once it is, you will receive an email invitation, just like with Challenge #1
+# Challenge 2: Working with Data
+- *Assigned: September 22, 2018*
+- *Due: at 6pm on October 6, 2018*
+
+# Assignment
+You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/IBIEM/community/issues)
+
+The goal of this challenge is to help you get more familiar with the material covered in the following lessons from [SWC: R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
+
+- [Seeking Help](http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/)
+- [Data Structures](http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/)
+- [Exploring Data Frames](http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/)
+- [Subsetting Data](http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/)
+
+You will need to:
+
+1. Initialize a new project in RStudio based on this repository (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#initialize-a-new-project))
+
+2. Fill the blank R code chunks in [challenge2_assignment.Rmd](challenge2_assignment.Rmd)
+
+3. Modify the header of [challenge2_assignment.Rmd](challenge2_assignment.Rmd) (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#modify-the-header)
+
+4. Submit the Assignment (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#submitting-the-assignment).  You should submit the following:
+  - `challenge2_assignment.Rmd` : your modified version of the R Notebook that you received in your repo
+  - `challenge2_assignment.html` : the output from knitting your revised `challenge2_assignment.Rmd`
+
+5. Optional (but strongly recommended): frequently commit changes and push to GitHub.
+
+
+## Grading
+We will be slightly more picky in grading challenge #2.  For this assignment and future assignments we will be checking for:
+1. Correct code!
+2. Correct result!
+2. Good git commit messages: 
+  - For some helpful hints, [Search of "writing good commit messages"](https://duckduckgo.com/?q=writing+good+commit+messages)
+  - You may also want [examples of what not to do](https://xkcd.com/1296/)
+3. SessionInfo: Including a `SessionInfo` statement at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky!
