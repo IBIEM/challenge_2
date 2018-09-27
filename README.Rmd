@@ -1,7 +1,7 @@
 
 # Challenge 2: Working with Data
-- *Assigned: September 22, 2018*
-- *Due: at 6pm on October 6, 2018*
+- *Assigned: September 27, 2018*
+- *Due: at 6pm on October 11, 2018*
 
 # Assignment
 You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/IBIEM/community/issues)
@@ -21,18 +21,28 @@ You will need to:
 
 3. Modify the header of [challenge2_assignment.Rmd](challenge2_assignment.Rmd) (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#modify-the-header)
 
-4. Submit the Assignment (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#submitting-the-assignment).  You should submit the following:
+4. Submit the Assignment (you might want to review the [relevant instructions from Challenge 1](https://github.com/IBIEM/challenge_1/blob/master/README.Rmd#submitting-the-assignment) ).  You should submit the following:
   - `challenge2_assignment.Rmd` : your modified version of the R Notebook that you received in your repo
   - `challenge2_assignment.html` : the output from knitting your revised `challenge2_assignment.Rmd`
 
-5. Optional (but strongly recommended): frequently commit changes and push to GitHub.
+5. Optional (but *strongly* recommended): frequently commit changes and push to GitHub.
 
 
 ## Grading
 We will be slightly more picky in grading challenge #2.  For this assignment and future assignments we will be checking for:
-1. Correct code!
-2. Correct result!
-2. Good git commit messages: 
-  - For some helpful hints, [Search of "writing good commit messages"](https://duckduckgo.com/?q=writing+good+commit+messages)
+
+| Weight (%) | Component                  |
+|------------+----------------------------|
+|         70 | Correct Result             |
+|         15 | Code Quality               |
+|         10 | Git Commit Message Quality |
+|          5 | SessionInfo                |
+
+
+### Git Commit Message Quality
+  - For some helpful hints [search the internet for "writing good commit messages"](https://duckduckgo.com/?q=writing+good+commit+messages)
   - You may also want [examples of what not to do](https://xkcd.com/1296/)
-3. SessionInfo: Including a `SessionInfo` statement at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky!
+
+### SessionInfo
+Including a `SessionInfo` statement at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky! 
+
