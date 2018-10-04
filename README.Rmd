@@ -32,7 +32,7 @@ You will need to:
 We will be slightly more picky in grading challenge #2.  For this assignment and future assignments we will be checking for:
 
 | Weight (%) | Component                  |
-|------------+----------------------------|
+|------------|----------------------------|
 |         70 | Correct Result             |
 |         15 | Code Quality               |
 |         10 | Git Commit Message Quality |
