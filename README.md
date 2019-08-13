@@ -22,18 +22,19 @@ You will need to:
 3. Modify the header of [challenge2_assignment.Rmd](challenge2_assignment.Rmd) (you might want to review the [relevant instructions from Challenge 1](https://github.com/ibiem-master/challenge_1/blob/master/README.md#modify-the-header)
 
 4. Submit the Assignment (you might want to review the [relevant instructions from Challenge 1](https://github.com/ibiem-master/challenge_1/blob/master/README.md#submitting-the-assignment) ).  You should submit the following:
-  - `challenge2_assignment.Rmd` : your modified version of the R Notebook that you received in your repo
-  - `challenge2_assignment.html` : the output from knitting your revised `challenge2_assignment.Rmd`
+    - `challenge2_assignment.Rmd` : your modified version of the R Notebook that you received in your repo
+    - `challenge2_assignment.html` : the output from knitting your revised `challenge2_assignment.Rmd`
 
 5. Optional (but *strongly* recommended): frequently commit changes and push to GitHub.
 
 
 ## Expectations
 You should focus on the following when working on this assignment:
+
   1. Correct Result - do the results seem reasonable?
   2. Code Quality - is your code well written?
   3. Git Commit Quality - have you made frequent commits? Are your commit messages informative?
-  4. SessionInfo - did you include a sessionInfo() call?
+  4. SessionInfo - did you include a `sessionInfo()` call?
 
 
 ### Git Commit Message Quality
@@ -41,5 +42,5 @@ You should focus on the following when working on this assignment:
   - You may also want [examples of what not to do](https://xkcd.com/1296/)
 
 ### SessionInfo
-Including a `SessionInfo` statement at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky! 
+Including a `sessionInfo()` call at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky! 
 
