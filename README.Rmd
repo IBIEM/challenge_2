@@ -28,15 +28,12 @@ You will need to:
 5. Optional (but *strongly* recommended): frequently commit changes and push to GitHub.
 
 
-## Grading
-We will be slightly more picky in grading challenge #2.  For this assignment and future assignments we will be checking for:
-
-| Weight (%) | Component                  |
-|------------|----------------------------|
-|         70 | Correct Result             |
-|         15 | Code Quality               |
-|         10 | Git Commit Message Quality |
-|          5 | SessionInfo                |
+## Expectations
+You should focus on the following when working on this assignment:
+  1. Correct Result - do the results seem reasonable?
+  2. Code Quality - is your code well written?
+  3. Git Commit Quality - have you made frequent commits? Are your commit messages informative?
+  4. SessionInfo - did you include a sessionInfo() call?
 
 
 ### Git Commit Message Quality
