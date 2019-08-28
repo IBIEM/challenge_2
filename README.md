@@ -1,7 +1,7 @@
 
 # Challenge 2: Working with Data
-- *Assigned: August 13, 2019*
-- *Due: at 6pm on August 20, 2019*
+- *Assigned: August 16, 2019*
+- *Due: at 6pm on September 6, 2019*
 
 # Assignment
 You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/ibiem-master/community)
