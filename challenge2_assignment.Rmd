@@ -4,9 +4,37 @@ subtitle: "Working with Data"
 output: html_document
 ---
 
-## Download Data
 
-Load the gapminder data into a dataframe directly from the Internet, without first downloading it to a file.  The URL for the gapminder data is <https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_data.csv>
+# Challenge 2
+These questions are based on the following SWC lessions
+
+- [Seeking Help](http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/)
+- [Data Structures](http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/)
+- [Exploring Data Frames](http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/)
+- [Subsetting Data](http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/)
+
+
+## Grading
+We will be slightly more picky in grading challenge #2.  For this assignment and future assignments we will be checking for:
+1. Correct code!
+2. Correct result!
+2. Good git commit messages: 
+  - For some helpful hints, [Search of "writing good commit messages"](https://duckduckgo.com/?q=writing+good+commit+messages)
+  - You may also want [examples of what not to do](https://xkcd.com/1296/)
+3. SessionInfo: Including a `SessionInfo` statement at the end of your R Notebook is good reproducibility practice.  This time it is included already in `challenge2_assignment.Rmd`; next time you might not be so lucky!
+
+| Weight (%) | Component                  |
+|------------|----------------------------|
+|         70 | Correct Result             |
+|         15 | Code Quality               |
+|         10 | Git Commit Message Quality |
+|          5 | SessionInfo                |
+
+> ~GRADE~ *Commit Messages:* do not need to be detailed, but they need to explain.  "Answered Data Download question" is fine "Made changes" is not.  I would like them to get in the habit of making frequent commits, so if they only did one or two commits for the assignment, give them some feedback, but don't take off points unless the commit messages are bad
+
+# Assignment
+## Download Data
+1. Load the gapminder data into a dataframe directly from the Internet, without first downloading it to a file.  The URL for the gapminder data is <https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_data.csv>
 
 
 ```{r}
@@ -15,12 +43,14 @@ Load the gapminder data into a dataframe directly from the Internet, without fir
 
 > Hint: There are instructions for doing this in [Exploring Data Frames](http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/).  You can also figure this out by carefully reading the `read.csv` help
 
+> ~GRADE~ 1.: Works=9, Quality=2.  If they are downloading using R and successfully loading into a data frame they get the *works* points.  They need to call read.csv on the URL to get the quality points.
+
 
 ## Quality Control
 If the data loaded correctly, you should have a data frame with six columns.  The columns should be named as follows, with the following data types for each column
 
 | Column    | Type   |
-|-----------+--------|
+|-----------|--------|
 | country   | Factor |
 | year      | int    |
 | pop       | num    |
@@ -28,17 +58,22 @@ If the data loaded correctly, you should have a data frame with six columns.  Th
 | lifeExp   | num    |
 | gdpPercap | num    |
 
-In this chunk please confirm that the data was loaded as expected
+
+2. In this chunk please write code that allows you to confirm that the data was loaded as expected
 ```{r}
 
 ```
 
-Next check that all 1704 rows were loaded
+> ~GRADE~ 2. Works=9, Quality=2.  For the 9 points they need to show that the columns are loaded, and they are of the expected type.  I'm flexible about the 2 points, use your judgement, but feel free to run it by me.
+
+3. In this next chunk write code to check that all 1704 rows were loaded.
 ```{r}
 
 ```
 
-We would like to check the first *ten* lines of the data frame to be sure it looks as expected.  *Hint:* the function that you use to do this defaults to showing *six* lines, so you will need to check help to figure out how to show *ten* lines.  The first ten lines should look like this:
+> ~GRADE~ 3. Works=9, Quality=2.  For the 9 points they need to show that there are 1704 rows.  I'm flexible about the 2 points, use your judgement, but feel free to run it by me.
+
+4. We would like to check the first *ten* lines of the data frame to be sure it looks as expected.  *Hint:* the function that you use to do this defaults to showing *six* lines, so you will need to check help to figure out how to show *ten* lines.  The first ten lines should look like this:
 
        country year      pop continent lifeExp gdpPercap
 1  Afghanistan 1952  8425333      Asia  28.801  779.4453
@@ -56,33 +91,42 @@ We would like to check the first *ten* lines of the data frame to be sure it loo
 
 ```
 
+> ~GRADE~ 4. Works=9, Quality=2.  For the 9 points they need to show the first 10 lines.  I can't think of any other way to do it correctly.  If they do `head(gapminder)` I would give a total of 6 points.
+
 ## Subsetting
-Subset the gapminder data to show only the rows from *Oceania*
+
+5. Subset the gapminder data to show only the rows from *Oceania*
+```{r}
+
+```
+> Hint: It is almost always a bad idea to use hard coded numbers: it makes code hard to read, it is fragile (i.e. if a newer version of the gapminder dataset came out, the row numbers would likely change and their code would break), and it is error prone. If you are trying to pull out a specific value from a dataset, it is almost always better to use that value itself.
+
+> ~GRADE 5.~ Subsetting: For question 5-7 there are several ways to do it, so use your discretion about quality
+
+6. Now subset the gapminder data to show only the rows from *Oceania* and the columns: *country*, *year*, and *pop*
 ```{r}
 
 ```
 
-Now subset the gapminder data to show only the rows from *Oceania* and the columns: *country*, *year*, and *pop*
+7. Now extract the *Oceania* population values as a vector.
 ```{r}
 
 ```
 
-Now extract the *Oceania* population values as a vector.
-```{r}
-
-```
-
-Now extract the *Oceania* population values as a data frame. 
+8. Now extract the *Oceania* population values as a data frame. 
 Hint: you do not need to use `data.frame()` or `as.data.frame()` to do this.  You can find the answer in the [Subsetting Data](http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/) lesson or by looking up help for `Extract`
 
 ```{r}
 
 ```
+> ~GRADE~ 8. Works=7, Quality=1.  This is a little bit trickier so I'll make it count less.
 
 
 # Session Info
+> ~GRADE~: 5 points if present
 Always print `sessionInfo` for reproducibility!
+
 ```{r}
-sessionInfo()
+
 ```
 

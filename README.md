@@ -1,10 +1,10 @@
 
 # Challenge 2: Working with Data
-- *Assigned: August 16, 2019*
-- *Due: at 6pm on September 6, 2019*
+- *Assigned: August 18, 2020*
+- *Due: at 6pm on September 1, 2020*
 
 # Assignment
-You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/ibiem-master/community)
+You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it yet or if you have questions related to this assignment please [post an Issue](https://github.com/ibiem-master/community).
 
 The goal of this challenge is to help you get more familiar with the material covered in the following lessons from [SWC: R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
 
